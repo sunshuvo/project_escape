@@ -166,6 +166,10 @@ header{
 	border-radius: 50px;
 	background: #222;
 	text-align: center;
+	cursor: pointer;
+}
+.skill_logo:hover{
+	background: #777;
 }
 .helper {
     display: inline-block;
