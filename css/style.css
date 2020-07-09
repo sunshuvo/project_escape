@@ -228,13 +228,17 @@ header{
 	position: relative;
 }
 .client_1 .client_quote blockquote:before{
-	content:"";
-	position: absolute;
-	border-top: 20px solid transparent;
-    border-right: 30px solid #fff;
-    border-bottom: 20px solid transparent;
-	top: 38%;
-	left: -30px;
+	position:absolute;
+	content:'';
+	height:34px;
+	width:34px;
+	background:white;
+	box-shadow:2px 2px 0 0  #ededed;
+	left:0;
+	top:42%;
+	margin-left:-17px;
+	transform:rotate(135deg);
+
 }
 .client_quote blockquote p{
 	font-size: 26px;
@@ -264,14 +268,17 @@ header{
 .client_2 .client_quote{
 	float: left;
 }
-.client_2 .client_quote blockquote:after{
-	content:"";
-	position: absolute;
-	border-top: 20px solid transparent;
-    border-left: 30px solid #fff;
-    border-bottom: 20px solid transparent;
-	top: 38%;
-	right: -30px;
+.client_2 .client_quote blockquote:after {
+	position:absolute;
+	content:'';
+	height:34px;
+	width:34px;
+	background:white;
+	box-shadow:2px 2px 0 0  #ededed;
+	right:0;
+	top:42%;
+	margin-right:-17px;
+	transform:rotate(-45deg);
 }
 .client_2 .client_img{
 	float: right;
