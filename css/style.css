@@ -257,7 +257,7 @@ header{
 .client_img{
 	width: 25%;
 	float: left;
-	background: #000;
+	background: #111;
 	border-radius: 50%;
 }
 .client_img:after{
