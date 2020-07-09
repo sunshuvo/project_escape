@@ -1,0 +1,476 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Brandon Grotesque';
+}
+/* Header Start */
+header{
+	padding: 44px 0;
+}
+.background{
+	background-image: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url("../img/banner.jpg");
+	background-position: top center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+	min-height: 100%;
+}
+
+.container{
+	width: 67.14%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+}
+.logo img{
+	width:100%;
+	float: left;
+}
+.navigation{
+	width: 45%;
+	float: right;
+}
+.navigation ul{
+	list-style: none;
+}
+.navigation ul li{
+	float: left;
+	padding: 0 15px;
+}
+.navigation ul li:last-child{
+	padding-right: 0px;
+}
+.navigation ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	transition: 0.3s;
+}
+.navigation ul li a:hover{
+	border-bottom: 2px solid #777;
+	color: #777;
+}
+/* Header End */
+
+/* Home Start */
+.home{
+	padding-top: 80px;
+	padding-bottom:125px;
+}
+.home_info{
+	text-align: center;
+	color: white;
+}
+.home_info h2{
+	font-size: 32px;
+	font-weight: 300;
+	padding-bottom: 40px;
+}
+.home_info h1{
+	font-size: 66px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 70px;
+}
+.home_info button{
+	width: 240px;
+	height: 65px;
+	font-family: 'Brandon Grotesque';
+	font-size: 23px;
+	font-weight: blod;
+	color: white;
+	border: 2px solid white;
+	border-radius: 4px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.home_info button:focus{
+	outline: none;
+}
+.home_info button:hover{
+	background: rgba(255,255,255,0.6);
+	border:none;
+	color: black;
+}
+/* Home End */
+
+/* service start */
+.services{}
+/* Service of Web Development Start */
+.srvc_web{
+	padding: 100px 0;
+}
+.srvc_info{
+	width: 68%;
+	float: left;
+}
+.srvc_info h2{
+	padding-bottom: 35px;
+	font-size: 60px;
+	font-weight: 300;
+}
+.srvc_info h2 span{
+	font-weight: bold;
+}
+.srvc_info p{
+	font-size: 18px;
+	padding-bottom: 35px;
+	color: #777;
+}
+.srvc_info p:nth-child(2){}
+.srvc_logo{
+	width: 25%;
+	float: right;
+	padding-top: 5%;
+}
+.srvc_logo img{
+	width:100%;
+}
+/* Service of Web Development End */
+/* Service of Identity Branding Start */
+.srvc_identity{
+	padding: 100px 0;
+	background-color: #fafafa;
+}
+
+.srvc_identity .srvc_info{
+	float:right;
+}
+.srvc_identity .srvc_logo{
+	float: left;
+}
+/* Service of Identity Branding End */
+/* Service Skill Start */
+.srvc_skills{
+	padding: 100px 0;
+}
+.skills_info{
+	width: 45%;
+	overflow: hidden;
+	float: left;
+	padding-bottom: 45px;
+}
+.skills_info:nth-child(even){
+	margin-left: 10%;
+}
+.skill_logo{
+	width: 75px;
+	height: 75px;
+	float: left;
+	border-radius: 50px;
+	background: black;
+	text-align: center;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.skill_logo img{
+	vertical-align: middle;
+}
+.skill_desc{
+	width: 75%;
+	float: left;
+	padding-left: 16px;
+}
+.skill_desc h3{
+	padding-bottom: 7px;
+	font-size: 22px;
+	font-weight: 500;
+	
+}
+.skill_desc p{
+	font-size: 18px;
+	color: #777;
+}
+/* Service Skill End */
+
+/* service end */
+
+/* client Start */
+.clients{
+	padding: 100px 0;
+	background-color: #fafafa;
+}
+.client_title{
+	text-align: center;
+	padding-bottom: 45px;
+}
+.client_title h2{
+	font-size: 60px;
+	font-weight: 300;
+}
+.client_title h2 span{
+	font-weight: bold;
+}
+.client_title p{
+	font-size: 22px;
+	color: #777;
+}
+.client_1{
+	padding-bottom: 40px;
+}
+.client_quote{
+	width: 70%;
+	padding-top: 2%;
+	float: right;
+}
+.client_quote blockquote{
+	background: white;
+	padding: 30px 60px;
+	border: 2px solid #ededed;
+	position: relative;
+}
+.client_1 .client_quote blockquote:before{
+	content:"";
+	position: absolute;
+	border-top: 20px solid transparent;
+    border-right: 30px solid white;
+    border-bottom: 20px solid transparent;
+	top: 38%;
+	left: -30px;
+}
+.client_quote blockquote p{
+	font-size: 26px;
+	color: #777;
+	padding-bottom: 12px;
+}
+.client_quote blockquote footer{
+	font-size: 20px;
+	color: #7690c5;
+	font-style: normal;
+}
+.client_quote blockquote footer cite{
+	font-style: normal;
+}
+.client_img{
+	width: 25%;
+	float: left;
+	background: black;
+	border-radius: 50%;
+}
+.client_img:after{
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+.client_2{}
+.client_2 .client_quote{
+	float: left;
+}
+.client_2 .client_quote blockquote:after{
+	content:"";
+	position: absolute;
+	border-top: 20px solid transparent;
+    border-left: 30px solid white;
+    border-bottom: 20px solid transparent;
+	top: 38%;
+	right: -30px;
+}
+.client_2 .client_img{
+	float: right;
+}
+
+/* client End */
+
+/* Team logo Start */
+.logos{
+	padding: 60px 0;
+}
+.patrner_logo{
+	text-align: center;
+}
+.patrner_logo img{
+	padding: 0 25px;
+}
+.patrner_logo img:nth-child(1){
+	width: 17%;
+}
+.patrner_logo img:nth-child(2){
+	width: 20.2%;
+}
+.patrner_logo img:nth-child(3){
+	width: 14%;
+}
+.patrner_logo img:nth-child(4){
+	width: 18%;
+}
+/* Team logo End */
+
+/* Team Member Start */
+.team{
+	background-color: #000;
+	color: white;
+	padding: 100px 0;
+}
+.team_mem{
+	text-align: center;
+	padding: 45px 4%;
+	margin: 0 auto;
+	width: 25%;
+	float: left;
+}
+.team_img{
+	border: 6px solid #fff;
+	border-radius: 50%;
+	margin-bottom: 20px;
+}
+.team_img:after{
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+.team_title{}
+.team_title h2{
+	font-size: 18px;
+	font-weight: bold;
+}
+.team_title p{
+	font-size: 16px;
+	color: #ebebeb;
+}
+.team_social{
+	padding-top: 12px;
+}
+.team_social ul{}
+.team_social ul li{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+	border: 4px solid #fff;
+	border-radius: 50px;
+	text-align: center;
+}
+.team_social ul li a{
+	vertical-align: middle;
+}
+.team_social ul li a i{
+	font-size: 22px;
+	color: #fff;
+	transition: 0.3s;
+}
+.team_social ul li a:hover i{
+	color: #777;
+}
+.team_desc p{
+	font-size: 20px;
+	text-align: center;
+	color: #ebebeb;
+}
+/* Team Member End */
+
+/* Contact information Start */
+.contact{
+	background-color: #7690c5;
+	padding: 100px 0;
+	color: #fff;
+}
+.contact .client_title{
+	text-align: left;
+}
+.contact .client_title p{
+	font-size: 18px;
+	color: #fff;
+}
+.contact_info{
+	width: 48%;
+	float: left;
+}
+.contact_details{}
+.contact_single{
+	width: 45%;
+	float: left;
+	padding-bottom: 40px;
+	color: 
+}
+.contact_single:nth-child(even){
+	margin-left: 10%;
+}
+.icon{
+	width: 10%;
+	float: left;
+	font-size: 25px;
+	text-align: center;
+}
+.icon_text{
+	width: 80%;
+	float: right;
+	font-size: 18px;
+}
+.icon_text a{
+	text-decoration: none;
+	color: #fff;
+	vertical-align: middle;
+}
+.icon_text a:hover{
+	color: #777;
+}
+.contact_form{
+	width: 48%;
+	float: right;
+}
+.contact_form input, textarea ,button{
+	font-family:  'Brandon Grotesque';
+	font-size: 18px;
+	font-weight: 300;
+	width: 100%;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 3px;
+}
+.contact_form input:focus, textarea:focus, button:focus{
+	outline: none;
+}
+.contact_form textarea{
+	min-height: 150px;
+}
+.submit{}
+.submit button:nth-child(1){
+	width: 49%;	
+	float: left;
+}
+.submit button:nth-child(2){
+	width: 49%;	
+	float: right;
+}
+.submit button{
+	cursor: pointer;
+}
+.submit button:hover{
+	background-color: #777;
+	color: #fff;
+}
+/* Contact information End */
+
+/* Footer Start */
+.footer{
+	background-color: #7690c5;
+}
+.footer .container{
+	border-top: 1px solid #87a0d2;
+	padding: 32px 0;
+}
+.footer p{
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+}
+/* Footer end */
+
+
+
+
+
+
+
+
+
+
