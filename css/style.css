@@ -407,6 +407,7 @@ header{
 	text-decoration: none;
 	color: #fff;
 	vertical-align: middle;
+	transition: 0.3s
 }
 .icon_text a:hover{
 	color: #777;
@@ -442,7 +443,10 @@ header{
 	float: right;
 }
 .submit button{
+	font-weight: 700;
+	color: #777;
 	cursor: pointer;
+	transition: 0.3s
 }
 .submit button:hover{
 	background-color: #777;
@@ -464,13 +468,3 @@ header{
 	color: #fff;
 }
 /* Footer end */
-
-
-
-
-
-
-
-
-
-
