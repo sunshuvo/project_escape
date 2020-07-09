@@ -87,6 +87,7 @@ header{
 	border-radius: 4px;
 	background-color: transparent;
 	cursor: pointer;
+	transition: 0.3s;
 }
 .home_info button:focus{
 	outline: none;
