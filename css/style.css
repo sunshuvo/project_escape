@@ -81,9 +81,9 @@ header{
 	height: 65px;
 	font-family: 'Brandon Grotesque';
 	font-size: 23px;
-	font-weight: blod;
-	color: white;
-	border: 2px solid white;
+	font-weight: bold;
+	color: #fff;
+	border: 2px solid #fff;
 	border-radius: 4px;
 	background-color: transparent;
 	cursor: pointer;
@@ -94,7 +94,7 @@ header{
 .home_info button:hover{
 	background: rgba(255,255,255,0.6);
 	border:none;
-	color: black;
+	color: #000;
 }
 /* Home End */
 
@@ -162,7 +162,7 @@ header{
 	height: 75px;
 	float: left;
 	border-radius: 50px;
-	background: black;
+	background: #fff;
 	text-align: center;
 }
 .helper {
@@ -221,7 +221,7 @@ header{
 	float: right;
 }
 .client_quote blockquote{
-	background: white;
+	background: #fff;
 	padding: 30px 60px;
 	border: 2px solid #ededed;
 	position: relative;
@@ -230,7 +230,7 @@ header{
 	content:"";
 	position: absolute;
 	border-top: 20px solid transparent;
-    border-right: 30px solid white;
+    border-right: 30px solid #fff;
     border-bottom: 20px solid transparent;
 	top: 38%;
 	left: -30px;
@@ -251,7 +251,7 @@ header{
 .client_img{
 	width: 25%;
 	float: left;
-	background: black;
+	background: #000;
 	border-radius: 50%;
 }
 .client_img:after{
@@ -267,7 +267,7 @@ header{
 	content:"";
 	position: absolute;
 	border-top: 20px solid transparent;
-    border-left: 30px solid white;
+    border-left: 30px solid #fff;
     border-bottom: 20px solid transparent;
 	top: 38%;
 	right: -30px;
@@ -305,7 +305,7 @@ header{
 /* Team Member Start */
 .team{
 	background-color: #000;
-	color: white;
+	color: #fff;
 	padding: 100px 0;
 }
 .team_mem{
