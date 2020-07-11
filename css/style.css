@@ -368,6 +368,7 @@ header{
 	font-size: 22px;
 	color: #fff;
 	transition: 0.3s;
+	vertical-align: middle;
 }
 .team_social ul li a:hover i{
 	color: #777;
